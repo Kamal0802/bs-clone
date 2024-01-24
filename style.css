@@ -4,6 +4,11 @@ body{
 }
 
 
+.card{
+    width: 300px;
+    height: 300px;
+}
+
 
 .list:hover{
     cursor: pointer;
