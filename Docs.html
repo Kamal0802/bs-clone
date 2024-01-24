@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap-Docs</title>
+    <link rel="icon" type="image/x-icon" href="assets/bootstrap-logo.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="min-height: 100vh">
+    <header class="navi">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-light">
+        <div class="container">
+          <a
+            href=""
+            class="navbar-brand"
+            style="text-decoration: none; color: white"
+            ><img
+              src="assets/bootprt.png"
+              width="50px"
+              alt=""
+            />&ensp;BOOTSTRAP</a
+          >
+
+          <span
+            ><i
+              class="fa-solid fa-bars text-light navbar-toggler"
+              data-bs-toggle="collapse"
+              data-bs-target="#kamal"
+            ></i
+          ></span>
+
+          <div class="collapse navbar-collapse container" id="kamal">
+            <div
+              class="navbar-nav text-light d-flex justify-content-evenly ms-auto text-right"
+            >
+              <a href="index.html" style="text-decoration: none">
+                <li class="nav-item me-5 p-2 list">Home</li></a
+              >
+              <a href="Docs.html" style="text-decoration: none">
+                <li class="nav-item me-5 p-2 list">Documents</li></a
+              >
+              <a href="components.html" style="text-decoration: none">
+                <li class="nav-item me-5 p-2 list">Components</li></a
+              >
+              <a href="icons.html" style="text-decoration: none">
+                <li class="nav-item me-5 p-2 list">Icons</li></a
+              >
+              <li class="dropdown me-5 p-2">
+                <span
+                  class="dropdown-toggle d-inline-block aling-top"
+                  data-bs-toggle="dropdown"
+                  >Help</span
+                >
+                <ul class="dropdown-menu p-3">
+                  <li class="dropdown-item">yotube</li>
+                  <li class="dropdown-item">instagram</li>
+                  <li class="dropdown-item">twitter</li>
+                </ul>
+              </li>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container p-3">
+
+      <div class="text-center text-light">
+        <h1> Get started any way you want</h1>
+        <p>Jump right into building with Bootstrap—use the CDN, install it via package manager, or download the source code.</p>
+      </div>
+
+      <div class="row justify-content-evenly mb-5">
+        <div class="col-md-5 mt-5 text-light">
+          <i
+            class="fa-brands fa-npm pb-3"
+            style="font-size: 5rem; color: white"
+          ></i>
+          <h1>Install via package manager</h1>
+          <p>
+            Install Bootstrap’s source Sass and JavaScript files via npm,
+            RubyGems, Composer, or Meteor. Package managed installs don’t
+            include documentation or our full build scripts. You can also use
+            any demo from our Examples repo to quickly jumpstart Bootstrap
+            projects.
+          </p>
+          <div
+            class="p-4 mb-5 mt-5"
+            style="width: 20rem; border: 2px solid grey; border-radius: 20px"
+          >
+            $ npm install bootstrap@5.3.2&ensp;
+            <i class="fa-regular ms-3 fa-clipboard"></i>
+          </div>
+
+          <div
+            class="p-4"
+            style="width: 20rem; border: 2px solid grey; border-radius: 20px"
+          >
+            $ gem install bootstrap -v 5.3.2&ensp;
+            <i class="fa-regular ms-3 fa-clipboard"></i>
+          </div>
+        </div>
+
+        <div class="col-md-5 mt-5 text-light">
+          <i class="fa-solid fa-globe pb-3" style="font-size: 5rem"></i>
+          <h1>Include via CDN</h1>
+          <p>
+            When you only need to include Bootstrap’s compiled CSS or JS, you
+            can use jsDelivr. See it in action with our simple quick start, or
+            browse the examples to jumpstart your next project. You can also
+            choose to include Popper and our JS separately.
+          </p>
+
+          <div style="width: 100%; border: 2px solid grey; border-radius: 20px" class="text-center mt-5">
+            <div
+            class="p-3 mt-2 mb-2 ms-3 me-3 cdn"
+            
+          >
+            <pre class="d-inline-block"> href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"</pre>
+            
+          </div></div>
+
+          <div style="width: 100%; border: 2px solid grey; border-radius: 20px" class="text-center mt-5">
+            <div
+            class="p-3 mt-2 mb-2 ms-3 me-3 cdn"
+            
+          >
+            <pre class="d-inline-block">src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"</pre>
+            
+          </div></div>
+       
+        </div>
+      </div>
+    </div>
+
+    <div class="container p-3">
+      <div class="row text-light justify-content-center">
+        <div class="col-md-3 text-center">
+          <img src="assets/webpack-icon-logo-png-transparent.png" alt="webpack image" width="100px">
+          <p class="pt-3">webpack</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="assets/parcel-png.png" alt="parcel image" width="100px">
+          <p class="pt-3">Parcel</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <img src="assets/vite-js-4096-logo.png" alt="vite image" width="100px">
+          <p class="pt-3">Vite</p>
+        </div>
+      </div>
+      <div class="row text-center text-light pt-3">
+        <h1>Read our getting started guides</h1>
+        <p class="lead">Get a jump on including Bootstrap's source files in a new project with our official guides</p>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/7029a1741b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
